@@ -1,0 +1,24 @@
+:root {
+  --primary: #6366f1;
+  --background: #0f0f0f;
+}
+
+body {
+  background: var(--background);
+  color: white;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.video-container {
+  background: #1a1a1a;
+  border-radius: 1rem;
+  overflow: hidden;
+}
